@@ -1,0 +1,15 @@
+
+lsblk
+sudo file -s /dev/xvdf
+sudo mkfs -t xfs /dev/xvdf
+sudo file -s /dev/xvdf
+sudo mkdir /minecraft
+sudo mount /dev/xvdf /minecraft
+
+sudo -s
+sudo yum -y install java
+sudo mkdir /minecraft
+sudo mount /dev/xvdf /minecraft
+cd /minecraft
+cd Dawncraft
+bash run.sh
