@@ -13,3 +13,7 @@ sudo mount /dev/xvdf /minecraft
 cd /minecraft
 cd Dawncraft
 bash run.sh
+
+
+Install htop for sysadmin stuff
+ps -A for processes and killing
